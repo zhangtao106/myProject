@@ -1,0 +1,22 @@
+server:
+  port: 8081
+spring:
+  redis:
+    host: 192.168.72.129
+    port: 6379
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: 6000ms
+  datasource:
+    driver-class-name: com.alibaba.druid.proxy.DruidDriver
+    url: jdbc:mysql://localhost:3306/project?useUnicode=true&characterEncoding=utf8
+    data-username: root
+    data-password:
+mybatis:
+  mapper-locations: classpath:sqlMap/**/*.xml
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
