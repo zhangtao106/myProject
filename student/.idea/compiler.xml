@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <option name="USE_RELEASE_OPTION" value="false" />
-    <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="student_front" />
-        <module name="student_core" />
-        <module name="student_cron" />
-      </profile>
-    </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="student_admin" options="-parameters" />
-      <module name="student_core" options="-parameters" />
-      <module name="student_cron" options="-parameters" />
-      <module name="student_front" options="-parameters" />
-    </option>
+    <bytecodeTargetLevel>
+      <module name="student" target="1.5" />
+      <module name="student_admin" target="1.5" />
+      <module name="student_core" target="1.5" />
+      <module name="student_cron" target="1.5" />
+      <module name="student_front" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

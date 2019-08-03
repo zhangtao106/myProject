@@ -6,7 +6,11 @@
         <groupId>com.fightingheart</groupId>
         <artifactId>student</artifactId>
         <version>1.0.0</version>
+<<<<<<< HEAD
         <relativePath>../pom.xml</relativePath>
+=======
+        <relativePath/> <!-- lookup parent from repository -->
+>>>>>>> 547d5401790c0ba7b6d7f05077b528f3d5bee20f
     </parent>
     <groupId>com.fightingheart</groupId>
     <artifactId>student_front</artifactId>
@@ -31,4 +35,16 @@
         </dependency>
     </dependencies>
 
+<<<<<<< HEAD
+=======
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+>>>>>>> 547d5401790c0ba7b6d7f05077b528f3d5bee20f
 </project>
